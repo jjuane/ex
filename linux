@@ -1,0 +1,29 @@
+pwd -> devuelve el directorio
+cd -> change directory
+ls -> listar archivos/directorios
+. -> directorio actual
+.. -> ir atrás [o ../.. para ir más atrás]
+mkdir -> make directory - crear una carpeta [entre " " para agregar espacios al nombre]
+rm -> borrar fichero
+
+sintaxis:
+ls -l -> muestra los archivos con más detalle
+ls -h -> de una forma más humana (en kb, mb)
+ls -S -> ordena por tamaño (agregar r para cambiar asc/desc)
+ls -t -> ordena por fecha (agregar r para cambiar asc/desc)
+ls -a -> archivos ocultos
+
+mkdir -p directorio/carpeta_dentro [obliga a crear primero el directorio que no existe y una carpeta dentro]
+
+rm -r dir1 [borrar la carpeta y todo su contenido]
+
+Navegar entre carpetas
+
+home
+	//fotos
+		//personales
+	//musica
+
+root@sistema:~/fotos/personales$  [quiero ir a musica]
+root@sistema:~ cd../musica/ 
+root@sistema:~/musica$             
