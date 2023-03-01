@@ -9,6 +9,11 @@ mkdir -> make directory - crear una carpeta [entre " " para agregar espacios al 
 rm -> borrar archivos
 touch -> crear archivos
 mv -> mover archivos, renombrar [origen - destino]
+cat -> mostrar archivo de forma rápida
+
+-- * -> el asterisco hace de filtro 
+[ls -l *.gif -> mostrará todos los archivos (detalladamente) con extensión .gif] 
+[ls -l t* -> mostrará todos los archivos (detalladamente) con nombre t...]
 
 -- Sintaxis:
 ls -l -> muestra los archivos con más detalle
@@ -30,4 +35,11 @@ home
 
 root@sistema:~/fotos/personales$  [quiero ir a musica]
 root@sistema:~ cd../musica/ 
-root@sistema:~/musica$             
+root@sistema:~/musica$          
+
+Permisos
+
+-rw-rw-rw-   [puede escribir]
+-r--r--r--   [puede leer]
+----------   [sin permisos]
+---x--x--x   [puede ejecutar]   
